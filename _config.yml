@@ -6,7 +6,7 @@
 title: Hexo
 subtitle:
 description:
-author: John Doe
+author: Sinkingstones
 language:
 timezone:
 
@@ -68,4 +68,7 @@ theme: landscape
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type:github
+  repository:git@github.com:sinkingstones/sinkingstones.github.io.git
+  branch:master
+  plugins:-hexo-generator-feed
