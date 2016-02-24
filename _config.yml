@@ -68,7 +68,8 @@ theme: landscape
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:github
-  repository:git@github.com:sinkingstones/sinkingstones.github.io.git
+  type:git
+  repository:http://github.com/sinkingstones/sinkingstones.github.io.git
   branch:master
   plugins:-hexo-generator-feed
+
